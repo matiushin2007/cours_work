@@ -94,6 +94,117 @@ QString StyleHelper::getRightButtonActiveStyle()
            "}";
 }
 
+QString StyleHelper::getBlankButtonStyle()
+{
+    return "QPushButton{"
+           " border: none;"
+           " background: #1c1c1c;"
+           "}"
+           "QPushButton::hover{"
+           " background: #6B6B6B;"
+           "}";
+
+}
+
+QString StyleHelper::getCrossNormalStyle()
+{
+    return "QPushButton{"
+           " border: none;"
+           " background: #1c1c1c url(:/resourses/images/cross_large.png) no-repeat center center;"
+           "}"
+           "QPushButton::hover{"
+           " background-color: #6B6B6B;"
+           "}";
+}
+
+QString StyleHelper::getCrossVictoryStyle()
+{
+    return "QPushButton{"
+           " border: none;"
+           " background-color: #44944A;"
+           " background-image: url(:/resourses/images/cross_large.png);"
+           " background-repeat: no-repeat;"
+           " background-position: center center;"
+           "}";
+}
+
+QString StyleHelper::getCrossLostStyle()
+{
+    return "QPushButton{"
+           " border: none;"
+           " background-color: #B00000;"
+           " background-image: url(:/resourses/images/cross_large.png);"
+           " background-repeat: no-repeat;"
+           " background-position: center center;"
+           "}";
+}
+
+QString StyleHelper::getZeroNormalStyle()
+{
+    return "QPushButton{"
+           " border: none;"
+           " background: #1c1c1c url(:/resourses/images/zero_large.png) no-repeat center center;"
+           "}"
+           "QPushButton::hover{"
+           " background-color: #6B6B6B;"
+           "}";
+}
+
+QString StyleHelper::getZeroVictoryStyle()
+{
+    return "QPushButton{"
+           " border: none;"
+           " background-color: #44944A;"
+           " background-image: url(:/resourses/images/zero_large.png);"
+           " background-repeat: no-repeat;"
+           " background-position: center center;"
+           "}";
+}
+
+QString StyleHelper::getZeroLostStyle()
+{
+    return "QPushButton{"
+           " border: none;"
+           " background-color: #B00000;"
+           " background-image: url(:/resourses/images/zero_large.png);"
+           " background-repeat: no-repeat;"
+           " background-position: center center;"
+           "}";
+}
+
+QString StyleHelper::getNormalMessageStyle()
+{
+    return "QLabel{"
+           " font-family: 'Roboto Medium';"
+           " font-size:12px;"
+           " background: none;"
+           " color:#ffffff;"
+           "}";
+}
+
+QString StyleHelper::getVictoryMessageStyle()
+{
+    return "QLabel{"
+           " font-family: 'Roboto Medium';"
+           " font-size:16px;"
+           " background: #44944A;"
+           " border:1px solid #1c7c33;"
+           " color:#ffffff;"
+           "}";
+}
+
+QString StyleHelper::getLostMessageStyle()
+{
+    return "QLabel{"
+           " font-family: 'Roboto Medium';"
+           " font-size:16px;"
+           " background: #B00000;"
+           " border:1px solid #8B0000;"
+           " color:#ffffff;"
+           "}";
+
+}
+
 QString StyleHelper::getAboutTextStyle()
 {
     return "QLabel{"

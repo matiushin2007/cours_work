@@ -42,6 +42,19 @@ void MainWindow::setInterfaceStyle()
     ui->x5_Button->setStyleSheet(StyleHelper::getGameButtonsStyle());
     ui->leftButton->setStyleSheet(StyleHelper::getLeftButtonActiveStyle());
     ui->rightButton->setStyleSheet(StyleHelper::getRightButtonsStyle());
+    ui->pushButton3_0_0->setStyleSheet(StyleHelper::getBlankButtonStyle());
+    ui->pushButton3_0_1->setStyleSheet(StyleHelper::getCrossNormalStyle());
+    ui->pushButton3_0_2->setStyleSheet(StyleHelper::getCrossVictoryStyle());
+    ui->pushButton3_1_0->setStyleSheet(StyleHelper::getCrossLostStyle());
+    ui->pushButton3_1_1->setStyleSheet(StyleHelper::getZeroNormalStyle());
+    ui->pushButton3_1_2->setStyleSheet(StyleHelper::getZeroVictoryStyle());
+    ui->pushButton3_2_0->setStyleSheet(StyleHelper::getZeroLostStyle());
+
+
+
+    ui->messageLabel->setStyleSheet(StyleHelper::getVictoryMessageStyle());
+    ui->messageLabel->setText("Ход крестов");
+
 
 
 

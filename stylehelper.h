@@ -12,6 +12,20 @@ public:
     static QString getLeftButtonActiveStyle(); //Кнопка за игру крестом (нажата)
     static QString getRightButtonActiveStyle(); //Кнопка за игру нулем (нажата)
 
+    static QString getBlankButtonStyle(); //Не хаполненная ячейка игрового поля
+
+    static QString getCrossNormalStyle(); //Ячейка, заполненная крестом
+    static QString getCrossVictoryStyle();//Ячейка, заполненная крестом, приэтом игрок выиграл
+    static QString getCrossLostStyle();//Ячейка, заполненная крестом, приэтом игрок проиграл
+
+    static QString getZeroNormalStyle(); //Ячейка, заполненная нулем
+    static QString getZeroVictoryStyle();//Ячейка, заполненная нулем, приэтом игрок выиграл
+    static QString getZeroLostStyle();//Ячейка, заполненная нулем, приэтом игрок проиграл
+
+    static QString getNormalMessageStyle();//Сообщение, когда игра активна
+    static QString getVictoryMessageStyle();//Сообщение, когда игра выиграна
+    static QString getLostMessageStyle();//Сообщение, когда игра проиграна
+
 
 
     static QString getAboutTextStyle();
