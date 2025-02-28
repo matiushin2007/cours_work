@@ -1,6 +1,6 @@
 #ifndef STYLEHELPER_H
 #define STYLEHELPER_H
-#include <QString>
+#include <QString> //Подключение класса для работы со строками в формате UTF-16
 class StyleHelper
 {
 public:
@@ -28,7 +28,7 @@ public:
 
 
 
-    static QString getAboutTextStyle();
+    static QString getAboutTextStyle(); //Тескт на странице "Об игре"
 };
 
 #endif // STYLEHELPER_H

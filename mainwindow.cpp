@@ -23,7 +23,7 @@ MainWindow::~MainWindow()
     delete ui;
 }
 
-void MainWindow::paintEvent(QPaintEvent *event)
+void MainWindow::paintEvent(QPaintEvent *event) //Необходимо для создания возможности вносить изменения в отрисовку виджета
 {
     QStyleOption opt;
 
@@ -42,7 +42,7 @@ void MainWindow::setInterfaceStyle()
     ui->x5_Button->setStyleSheet(StyleHelper::getGameButtonsStyle());
     ui->leftButton->setStyleSheet(StyleHelper::getLeftButtonActiveStyle());
     ui->rightButton->setStyleSheet(StyleHelper::getRightButtonsStyle());
-    ui->pushButton3_0_0->setStyleSheet(StyleHelper::getBlankButtonStyle());
+    ui->pushButton3_0_0->setStyleSheet(StyleHelper::getBlankButtonStyle());   //Реализация всех созданных стилей из файла stylehelper.cpp
     ui->pushButton3_0_1->setStyleSheet(StyleHelper::getCrossNormalStyle());
     ui->pushButton3_0_2->setStyleSheet(StyleHelper::getCrossVictoryStyle());
     ui->pushButton3_1_0->setStyleSheet(StyleHelper::getCrossLostStyle());
@@ -52,7 +52,7 @@ void MainWindow::setInterfaceStyle()
 
 
 
-    ui->messageLabel->setStyleSheet(StyleHelper::getVictoryMessageStyle());
+    ui->messageLabel->setStyleSheet(StyleHelper::getVictoryMessageStyle()); //Текст над меню пользователя
     ui->messageLabel->setText("Ход крестов");
 
 
@@ -61,7 +61,7 @@ void MainWindow::setInterfaceStyle()
     ui->aboutTextLabel->setStyleSheet(StyleHelper::getAboutTextStyle());
 }
 
-void MainWindow::changeButtonStatus(int num)
+void MainWindow::changeButtonStatus(int num) //Выбор знака, за который пользователь бедт играть (крест/ноль)
 {
     if (num==1){
         ui->leftButton->setStyleSheet(StyleHelper::getLeftButtonActiveStyle());
@@ -79,7 +79,7 @@ void MainWindow::on_leftButton_clicked() // Переключение возмо�
 }
 
 
-void MainWindow::on_rightButton_clicked()
+void MainWindow::on_rightButton_clicked() // Переключение возмости игры (за кресты или нули)
 {
     changeButtonStatus(0);
 }

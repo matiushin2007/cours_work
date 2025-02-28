@@ -8,7 +8,7 @@ QT_BEGIN_NAMESPACE
 namespace Ui {
 class MainWindow;
 }
-QT_END_NAMESPACE
+QT_END_NAMESPACE                            //Создание окна приложения с возможностью кастомной отрисовки интерфейса
 
 class MainWindow : public QMainWindow
 {
@@ -24,7 +24,7 @@ private slots:
 
     void on_rightButton_clicked();
 
-    void on_x3_Button_clicked();
+    void on_x3_Button_clicked(); //Функции нажатия на созданные кнопки в пользовательском меню
 
     void on_aboutButton_clicked();
 
@@ -34,7 +34,7 @@ private slots:
 
 private:
     Ui::MainWindow *ui;
-    void setInterfaceStyle();
-    void changeButtonStatus(int num);
+    void setInterfaceStyle(); //Функция для реализации созданных стилей в файле stylehelper.cpp
+    void changeButtonStatus(int num); //Выбор знака, за который пользователь будет играть (крест или ноль)
 };
 #endif // MAINWINDOW_H
