@@ -14,6 +14,7 @@ SOURCES += \
     stylehelper.cpp
 
 HEADERS += \
+    gameboard.h \
     mainwindow.h \
     stylehelper.h
 

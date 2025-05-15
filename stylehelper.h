@@ -12,6 +12,10 @@ public:
     static QString getLeftButtonActiveStyle(); //Кнопка за игру крестом (нажата)
     static QString getRightButtonActiveStyle(); //Кнопка за игру нулем (нажата)
 
+    static QString getCrossStyleForSize(int size);// Возвращают стиль крестика для 3x3, 4x4, 5x5
+    static QString getZeroStyleForSize(int size);// Возвращают стиль нолика для 3x3, 4x4, 5x5
+
+
     static QString getBlankButtonStyle(); //Не хаполненная ячейка игрового поля
 
     static QString getCrossNormalStyle(); //Ячейка, заполненная крестом
@@ -26,6 +30,11 @@ public:
     static QString getVictoryMessageStyle();//Сообщение, когда игра выиграна
     static QString getLostMessageStyle();//Сообщение, когда игра проиграна
 
+
+    static QString getCrossVictoryStyle(int size);// Стиль крестика (если выигрыш)
+    static QString getCrossLostStyle(int size);// Стиль крестика (если проигрыш)
+    static QString getZeroVictoryStyle(int size);// Стиль нолика (если победа)
+    static QString getZeroLostStyle(int size);// Стиль нолика (если проигрыш)
 
 
     static QString getAboutTextStyle(); //Тескт на странице "Об игре"

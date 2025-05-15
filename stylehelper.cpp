@@ -6,7 +6,7 @@ QString StyleHelper::getMainWidgetStyle()
     return "QWidget{background-image: url(:/resourses/images/bg_real.png);}"; //Основной фон
 }
 
-QString StyleHelper::getStartButtonsStyle() //Для
+QString StyleHelper::getStartButtonsStyle()
 {
     return "QPushButton{"
            "   color:#000000;"
@@ -67,7 +67,7 @@ QString StyleHelper::getRightButtonsStyle()
            "}";
 }
 
-QString StyleHelper::getLeftButtonActiveStyle()
+QString StyleHelper::getLeftButtonActiveStyle()//Кнопка за игру крестом (нажата)
 {
     return "QPushButton{"
            "  background-color: qlineargradient(spread:reflect, x1:0.81, y1:0.795727, x2:1, y2:1, stop:0 rgba(0, 0, 0, 255), stop:1 rgba(157, 157, 157, 255));"
@@ -80,7 +80,7 @@ QString StyleHelper::getLeftButtonActiveStyle()
            "}";
 }
 
-QString StyleHelper::getRightButtonActiveStyle()
+QString StyleHelper::getRightButtonActiveStyle()//Кнопка за игру ноликом(нажата)
 {
     return "QPushButton{"
            "  background-color: qlineargradient(spread:reflect, x1:0.81, y1:0.795727, x2:1, y2:1, stop:0 rgba(0, 0, 0, 255), stop:1 rgba(157, 157, 157, 255));"
@@ -215,3 +215,94 @@ QString StyleHelper::getAboutTextStyle() //Подключение шрифта �
            "}";
 
 }
+
+QString StyleHelper::getCrossStyleForSize(int size) {// Возвращают стиль крестика для 3x3, 4x4, 5x5
+    QString path = (size == 3)
+    ? ":/resourses/images/cross_large.png"
+    : (size == 4)
+        ? ":/resourses/images/cross_medium.png"
+        : ":/resourses/images/cross_smallest.png";
+
+    return QString(
+               "QPushButton {"
+               " background: #1c1c1c url(%1) no-repeat center center;"
+               " background-size: contain;"
+               " border: none;"
+               " }").arg(path);
+}
+
+QString StyleHelper::getZeroStyleForSize(int size) {// Возвращают стиль нолика для 3x3, 4x4, 5x5
+    QString path = (size == 3)
+    ? ":/resourses/images/zero_large.png"
+    : (size == 4)
+        ? ":/resourses/images/zero_medium.png"
+        : ":/resourses/images/zero_smallest.png";
+
+    return QString(
+               "QPushButton {"
+               " background: #1c1c1c url(%1) no-repeat center center;"
+               " background-size: contain;"
+               " border: none;"
+               " }").arg(path);
+}
+
+QString StyleHelper::getCrossVictoryStyle(int size) { //Подсвечивание крестика при победе
+    QString path = (size == 3)
+    ? ":/resourses/images/cross_large.png"
+    : (size == 4)
+        ? ":/resourses/images/cross_medium.png"
+        : ":/resourses/images/cross_smallest.png";
+
+    return QString(
+               "QPushButton {"
+               " background: green url(%1) no-repeat center center;"
+               " background-size: contain;"
+               " border: none;"
+               " }").arg(path);
+}
+
+QString StyleHelper::getCrossLostStyle(int size) { //Подсвечивание крестика при поражении
+    QString path = (size == 3)
+    ? ":/resourses/images/cross_large.png"
+    : (size == 4)
+        ? ":/resourses/images/cross_medium.png"
+        : ":/resourses/images/cross_smallest.png";
+
+    return QString(
+               "QPushButton {"
+               " background: gray url(%1) no-repeat center center;"
+               " background-size: contain;"
+               " border: none;"
+               " }").arg(path);
+}
+
+QString StyleHelper::getZeroVictoryStyle(int size) {//Подсвечивание нолика при победе
+    QString path = (size == 3)
+    ? ":/resourses/images/zero_large.png"
+    : (size == 4)
+        ? ":/resourses/images/zero_medium.png"
+        : ":/resourses/images/zero_smallest.png";
+
+    return QString(
+               "QPushButton {"
+               " background: green url(%1) no-repeat center center;"
+               " background-size: contain;"
+               " border: none;"
+               " }").arg(path);
+}
+
+QString StyleHelper::getZeroLostStyle(int size) {//Подсвечивание нолика при поражении
+    QString path = (size == 3)
+    ? ":/resourses/images/zero_large.png"
+    : (size == 4)
+        ? ":/resourses/images/zero_medium.png"
+        : ":/resourses/images/zero_smallest.png";
+
+    return QString(
+               "QPushButton {"
+               " background: gray url(%1) no-repeat center center;"
+               " background-size: contain;"
+               " border: none;"
+               " }").arg(path);
+}
+

@@ -10,5 +10,9 @@
         <file>resourses/images/bg_real.png</file>
         <file>mainwindow.h</file>
         <file>resourses/images/name.png</file>
+        <file>resourses/images/cross_medium.png</file>
+        <file>resourses/images/cross_smallest.png</file>
+        <file>resourses/images/zero_medium.png</file>
+        <file>resourses/images/zero_smallest.png</file>
     </qresource>
 </RCC>

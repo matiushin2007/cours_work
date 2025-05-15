@@ -266,7 +266,7 @@ QWidget#tab_4{
 }</string>
       </property>
       <property name="currentIndex">
-       <number>0</number>
+       <number>2</number>
       </property>
       <widget class="QWidget" name="tab">
        <attribute name="title">
@@ -490,7 +490,7 @@ QWidget#tab_4{
            </size>
           </property>
           <property name="text">
-           <string>PushButton</string>
+           <string/>
           </property>
          </widget>
         </item>
@@ -515,7 +515,7 @@ QWidget#tab_4{
            </size>
           </property>
           <property name="text">
-           <string>PushButton</string>
+           <string/>
           </property>
          </widget>
         </item>
@@ -540,7 +540,7 @@ QWidget#tab_4{
            </size>
           </property>
           <property name="text">
-           <string>PushButton</string>
+           <string/>
           </property>
          </widget>
         </item>
@@ -565,7 +565,7 @@ QWidget#tab_4{
            </size>
           </property>
           <property name="text">
-           <string>PushButton</string>
+           <string/>
           </property>
          </widget>
         </item>
@@ -590,7 +590,7 @@ QWidget#tab_4{
            </size>
           </property>
           <property name="text">
-           <string>PushButton</string>
+           <string/>
           </property>
          </widget>
         </item>
@@ -615,7 +615,7 @@ QWidget#tab_4{
            </size>
           </property>
           <property name="text">
-           <string>PushButton</string>
+           <string/>
           </property>
          </widget>
         </item>
@@ -640,7 +640,7 @@ QWidget#tab_4{
            </size>
           </property>
           <property name="text">
-           <string>PushButton</string>
+           <string/>
           </property>
          </widget>
         </item>
@@ -665,7 +665,7 @@ QWidget#tab_4{
            </size>
           </property>
           <property name="text">
-           <string>PushButton</string>
+           <string/>
           </property>
          </widget>
         </item>
@@ -690,7 +690,7 @@ QWidget#tab_4{
            </size>
           </property>
           <property name="text">
-           <string>PushButton</string>
+           <string/>
           </property>
          </widget>
         </item>
@@ -715,7 +715,7 @@ QWidget#tab_4{
            </size>
           </property>
           <property name="text">
-           <string>PushButton</string>
+           <string/>
           </property>
          </widget>
         </item>
@@ -740,7 +740,7 @@ QWidget#tab_4{
            </size>
           </property>
           <property name="text">
-           <string>PushButton</string>
+           <string/>
           </property>
          </widget>
         </item>
@@ -765,7 +765,7 @@ QWidget#tab_4{
            </size>
           </property>
           <property name="text">
-           <string>PushButton</string>
+           <string/>
           </property>
          </widget>
         </item>
@@ -790,7 +790,7 @@ QWidget#tab_4{
            </size>
           </property>
           <property name="text">
-           <string>PushButton</string>
+           <string/>
           </property>
          </widget>
         </item>
@@ -815,7 +815,7 @@ QWidget#tab_4{
            </size>
           </property>
           <property name="text">
-           <string>PushButton</string>
+           <string/>
           </property>
          </widget>
         </item>
@@ -840,7 +840,7 @@ QWidget#tab_4{
            </size>
           </property>
           <property name="text">
-           <string>PushButton</string>
+           <string/>
           </property>
          </widget>
         </item>
@@ -865,7 +865,7 @@ QWidget#tab_4{
            </size>
           </property>
           <property name="text">
-           <string>PushButton</string>
+           <string/>
           </property>
          </widget>
         </item>
@@ -897,7 +897,7 @@ QWidget#tab_4{
            </size>
           </property>
           <property name="text">
-           <string>PushButton</string>
+           <string/>
           </property>
           <property name="iconSize">
            <size>
@@ -928,7 +928,7 @@ QWidget#tab_4{
            </size>
           </property>
           <property name="text">
-           <string>PushButton</string>
+           <string/>
           </property>
           <property name="iconSize">
            <size>
@@ -959,7 +959,7 @@ QWidget#tab_4{
            </size>
           </property>
           <property name="text">
-           <string>PushButton</string>
+           <string/>
           </property>
           <property name="iconSize">
            <size>
@@ -990,7 +990,7 @@ QWidget#tab_4{
            </size>
           </property>
           <property name="text">
-           <string>PushButton</string>
+           <string/>
           </property>
           <property name="iconSize">
            <size>
@@ -1021,7 +1021,7 @@ QWidget#tab_4{
            </size>
           </property>
           <property name="text">
-           <string>PushButton</string>
+           <string/>
           </property>
           <property name="iconSize">
            <size>
@@ -1052,7 +1052,7 @@ QWidget#tab_4{
            </size>
           </property>
           <property name="text">
-           <string>PushButton</string>
+           <string/>
           </property>
           <property name="iconSize">
            <size>
@@ -1083,7 +1083,7 @@ QWidget#tab_4{
            </size>
           </property>
           <property name="text">
-           <string>PushButton</string>
+           <string/>
           </property>
           <property name="iconSize">
            <size>
@@ -1114,7 +1114,7 @@ QWidget#tab_4{
            </size>
           </property>
           <property name="text">
-           <string>PushButton</string>
+           <string/>
           </property>
           <property name="iconSize">
            <size>
@@ -1145,7 +1145,7 @@ QWidget#tab_4{
            </size>
           </property>
           <property name="text">
-           <string>PushButton</string>
+           <string/>
           </property>
           <property name="iconSize">
            <size>
@@ -1176,7 +1176,7 @@ QWidget#tab_4{
            </size>
           </property>
           <property name="text">
-           <string>PushButton</string>
+           <string/>
           </property>
           <property name="iconSize">
            <size>
@@ -1207,7 +1207,7 @@ QWidget#tab_4{
            </size>
           </property>
           <property name="text">
-           <string>PushButton</string>
+           <string/>
           </property>
           <property name="iconSize">
            <size>
@@ -1238,7 +1238,7 @@ QWidget#tab_4{
            </size>
           </property>
           <property name="text">
-           <string>PushButton</string>
+           <string/>
           </property>
           <property name="iconSize">
            <size>
@@ -1269,7 +1269,7 @@ QWidget#tab_4{
            </size>
           </property>
           <property name="text">
-           <string>PushButton</string>
+           <string/>
           </property>
           <property name="iconSize">
            <size>
@@ -1300,7 +1300,7 @@ QWidget#tab_4{
            </size>
           </property>
           <property name="text">
-           <string>PushButton</string>
+           <string/>
           </property>
           <property name="iconSize">
            <size>
@@ -1331,7 +1331,7 @@ QWidget#tab_4{
            </size>
           </property>
           <property name="text">
-           <string>PushButton</string>
+           <string/>
           </property>
           <property name="iconSize">
            <size>
@@ -1362,7 +1362,7 @@ QWidget#tab_4{
            </size>
           </property>
           <property name="text">
-           <string>PushButton</string>
+           <string/>
           </property>
           <property name="iconSize">
            <size>
@@ -1393,7 +1393,7 @@ QWidget#tab_4{
            </size>
           </property>
           <property name="text">
-           <string>PushButton</string>
+           <string/>
           </property>
           <property name="iconSize">
            <size>
@@ -1424,7 +1424,7 @@ QWidget#tab_4{
            </size>
           </property>
           <property name="text">
-           <string>PushButton</string>
+           <string/>
           </property>
           <property name="iconSize">
            <size>
@@ -1455,7 +1455,7 @@ QWidget#tab_4{
            </size>
           </property>
           <property name="text">
-           <string>PushButton</string>
+           <string/>
           </property>
           <property name="iconSize">
            <size>
@@ -1486,7 +1486,7 @@ QWidget#tab_4{
            </size>
           </property>
           <property name="text">
-           <string>PushButton</string>
+           <string/>
           </property>
           <property name="iconSize">
            <size>
@@ -1517,7 +1517,7 @@ QWidget#tab_4{
            </size>
           </property>
           <property name="text">
-           <string>PushButton</string>
+           <string/>
           </property>
           <property name="iconSize">
            <size>
@@ -1548,7 +1548,7 @@ QWidget#tab_4{
            </size>
           </property>
           <property name="text">
-           <string>PushButton</string>
+           <string/>
           </property>
           <property name="iconSize">
            <size>
@@ -1579,7 +1579,7 @@ QWidget#tab_4{
            </size>
           </property>
           <property name="text">
-           <string>PushButton</string>
+           <string/>
           </property>
           <property name="iconSize">
            <size>
@@ -1610,7 +1610,7 @@ QWidget#tab_4{
            </size>
           </property>
           <property name="text">
-           <string>PushButton</string>
+           <string/>
           </property>
           <property name="iconSize">
            <size>
@@ -1641,7 +1641,7 @@ QWidget#tab_4{
            </size>
           </property>
           <property name="text">
-           <string>PushButton</string>
+           <string/>
           </property>
           <property name="iconSize">
            <size>
